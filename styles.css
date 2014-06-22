@@ -1,0 +1,26 @@
+div {
+		background-color: #EEE;
+		margin: 10px;
+		min-height: 30px;
+		border: 1px solid #777;
+}
+
+.yellow {
+		background-color: yellow;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow > div {
+	background-color: green;
+}
+
+.red ~ div {
+	background-color: blue;
+}
+
+.red ~ div div {
+	background-color: orange;
+}
